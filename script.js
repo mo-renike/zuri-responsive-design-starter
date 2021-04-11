@@ -1,7 +1,7 @@
-const myToggler = document.getElementsByClassName('toggler');
-const navBarToggle = document.getElementsByClassName('nav-links');
+const myToggler = document.getElementByClassName('toggler');
+const navBarToggle = document.getElementByClassName('nav-links');
 
-myToggle.addEventListener('click', function () {
+myToggler.addEventListener('click', function () {
     
     myToggler.classList.toggle('active');
 });
